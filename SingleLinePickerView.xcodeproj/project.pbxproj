@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013A3D29179F56CB00DE6450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D28179F56CB00DE6450 /* UIKit.framework */; };
+		013A3D2B179F56CB00DE6450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D2A179F56CB00DE6450 /* Foundation.framework */; };
+		013A3D2D179F56CB00DE6450 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D2C179F56CB00DE6450 /* CoreGraphics.framework */; };
+		013A3D33179F56CB00DE6450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D31179F56CB00DE6450 /* InfoPlist.strings */; };
+		013A3D35179F56CB00DE6450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D34179F56CB00DE6450 /* main.m */; };
+		013A3D39179F56CB00DE6450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D38179F56CB00DE6450 /* AppDelegate.m */; };
+		013A3D3B179F56CB00DE6450 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D3A179F56CB00DE6450 /* Default.png */; };
+		013A3D3D179F56CB00DE6450 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D3C179F56CB00DE6450 /* Default@2x.png */; };
+		013A3D3F179F56CB00DE6450 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D3E179F56CB00DE6450 /* Default-568h@2x.png */; };
+		013A3D42179F56CB00DE6450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D41179F56CB00DE6450 /* ViewController.m */; };
+		013A3D45179F56CB00DE6450 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D43179F56CB00DE6450 /* ViewController_iPhone.xib */; };
+		013A3D48179F56CB00DE6450 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D46179F56CB00DE6450 /* ViewController_iPad.xib */; };
+		013A3D50179F56CC00DE6450 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D4F179F56CC00DE6450 /* SenTestingKit.framework */; };
+		013A3D51179F56CC00DE6450 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D28179F56CB00DE6450 /* UIKit.framework */; };
+		013A3D52179F56CC00DE6450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D2A179F56CB00DE6450 /* Foundation.framework */; };
+		013A3D5A179F56CC00DE6450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D58179F56CC00DE6450 /* InfoPlist.strings */; };
+		013A3D5D179F56CC00DE6450 /* SingleLinePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D5C179F56CC00DE6450 /* SingleLinePickerViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013A3D53179F56CC00DE6450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013A3D1D179F56CB00DE6450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013A3D24179F56CB00DE6450;
+			remoteInfo = SingleLinePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013A3D25179F56CB00DE6450 /* SingleLinePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleLinePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013A3D28179F56CB00DE6450 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		013A3D2A179F56CB00DE6450 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		013A3D2C179F56CB00DE6450 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		013A3D30179F56CB00DE6450 /* SingleLinePickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleLinePickerView-Info.plist"; sourceTree = "<group>"; };
+		013A3D32179F56CB00DE6450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		013A3D34179F56CB00DE6450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013A3D36179F56CB00DE6450 /* SingleLinePickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingleLinePickerView-Prefix.pch"; sourceTree = "<group>"; };
+		013A3D37179F56CB00DE6450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		013A3D38179F56CB00DE6450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		013A3D3A179F56CB00DE6450 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		013A3D3C179F56CB00DE6450 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		013A3D3E179F56CB00DE6450 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		013A3D40179F56CB00DE6450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		013A3D41179F56CB00DE6450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		013A3D44179F56CB00DE6450 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		013A3D47179F56CB00DE6450 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		013A3D4E179F56CC00DE6450 /* SingleLinePickerViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleLinePickerViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013A3D4F179F56CC00DE6450 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		013A3D57179F56CC00DE6450 /* SingleLinePickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleLinePickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		013A3D59179F56CC00DE6450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		013A3D5B179F56CC00DE6450 /* SingleLinePickerViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleLinePickerViewTests.h; sourceTree = "<group>"; };
+		013A3D5C179F56CC00DE6450 /* SingleLinePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleLinePickerViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013A3D22179F56CB00DE6450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A3D29179F56CB00DE6450 /* UIKit.framework in Frameworks */,
+				013A3D2B179F56CB00DE6450 /* Foundation.framework in Frameworks */,
+				013A3D2D179F56CB00DE6450 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A3D4A179F56CC00DE6450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A3D50179F56CC00DE6450 /* SenTestingKit.framework in Frameworks */,
+				013A3D51179F56CC00DE6450 /* UIKit.framework in Frameworks */,
+				013A3D52179F56CC00DE6450 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013A3D1C179F56CB00DE6450 = {
+			isa = PBXGroup;
+			children = (
+				013A3D2E179F56CB00DE6450 /* SingleLinePickerView */,
+				013A3D55179F56CC00DE6450 /* SingleLinePickerViewTests */,
+				013A3D27179F56CB00DE6450 /* Frameworks */,
+				013A3D26179F56CB00DE6450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013A3D26179F56CB00DE6450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D25179F56CB00DE6450 /* SingleLinePickerView.app */,
+				013A3D4E179F56CC00DE6450 /* SingleLinePickerViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013A3D27179F56CB00DE6450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D28179F56CB00DE6450 /* UIKit.framework */,
+				013A3D2A179F56CB00DE6450 /* Foundation.framework */,
+				013A3D2C179F56CB00DE6450 /* CoreGraphics.framework */,
+				013A3D4F179F56CC00DE6450 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		013A3D2E179F56CB00DE6450 /* SingleLinePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D37179F56CB00DE6450 /* AppDelegate.h */,
+				013A3D38179F56CB00DE6450 /* AppDelegate.m */,
+				013A3D40179F56CB00DE6450 /* ViewController.h */,
+				013A3D41179F56CB00DE6450 /* ViewController.m */,
+				013A3D43179F56CB00DE6450 /* ViewController_iPhone.xib */,
+				013A3D46179F56CB00DE6450 /* ViewController_iPad.xib */,
+				013A3D2F179F56CB00DE6450 /* Supporting Files */,
+			);
+			path = SingleLinePickerView;
+			sourceTree = "<group>";
+		};
+		013A3D2F179F56CB00DE6450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D30179F56CB00DE6450 /* SingleLinePickerView-Info.plist */,
+				013A3D31179F56CB00DE6450 /* InfoPlist.strings */,
+				013A3D34179F56CB00DE6450 /* main.m */,
+				013A3D36179F56CB00DE6450 /* SingleLinePickerView-Prefix.pch */,
+				013A3D3A179F56CB00DE6450 /* Default.png */,
+				013A3D3C179F56CB00DE6450 /* Default@2x.png */,
+				013A3D3E179F56CB00DE6450 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013A3D55179F56CC00DE6450 /* SingleLinePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D5B179F56CC00DE6450 /* SingleLinePickerViewTests.h */,
+				013A3D5C179F56CC00DE6450 /* SingleLinePickerViewTests.m */,
+				013A3D56179F56CC00DE6450 /* Supporting Files */,
+			);
+			path = SingleLinePickerViewTests;
+			sourceTree = "<group>";
+		};
+		013A3D56179F56CC00DE6450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D57179F56CC00DE6450 /* SingleLinePickerViewTests-Info.plist */,
+				013A3D58179F56CC00DE6450 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013A3D24179F56CB00DE6450 /* SingleLinePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013A3D60179F56CC00DE6450 /* Build configuration list for PBXNativeTarget "SingleLinePickerView" */;
+			buildPhases = (
+				013A3D21179F56CB00DE6450 /* Sources */,
+				013A3D22179F56CB00DE6450 /* Frameworks */,
+				013A3D23179F56CB00DE6450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleLinePickerView;
+			productName = SingleLinePickerView;
+			productReference = 013A3D25179F56CB00DE6450 /* SingleLinePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013A3D4D179F56CC00DE6450 /* SingleLinePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013A3D63179F56CC00DE6450 /* Build configuration list for PBXNativeTarget "SingleLinePickerViewTests" */;
+			buildPhases = (
+				013A3D49179F56CC00DE6450 /* Sources */,
+				013A3D4A179F56CC00DE6450 /* Frameworks */,
+				013A3D4B179F56CC00DE6450 /* Resources */,
+				013A3D4C179F56CC00DE6450 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013A3D54179F56CC00DE6450 /* PBXTargetDependency */,
+			);
+			name = SingleLinePickerViewTests;
+			productName = SingleLinePickerViewTests;
+			productReference = 013A3D4E179F56CC00DE6450 /* SingleLinePickerViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013A3D1D179F56CB00DE6450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Coscico;
+			};
+			buildConfigurationList = 013A3D20179F56CB00DE6450 /* Build configuration list for PBXProject "SingleLinePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 013A3D1C179F56CB00DE6450;
+			productRefGroup = 013A3D26179F56CB00DE6450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013A3D24179F56CB00DE6450 /* SingleLinePickerView */,
+				013A3D4D179F56CC00DE6450 /* SingleLinePickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013A3D23179F56CB00DE6450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A3D33179F56CB00DE6450 /* InfoPlist.strings in Resources */,
+				013A3D3B179F56CB00DE6450 /* Default.png in Resources */,
+				013A3D3D179F56CB00DE6450 /* Default@2x.png in Resources */,
+				013A3D3F179F56CB00DE6450 /* Default-568h@2x.png in Resources */,
+				013A3D45179F56CB00DE6450 /* ViewController_iPhone.xib in Resources */,
+				013A3D48179F56CB00DE6450 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A3D4B179F56CC00DE6450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A3D5A179F56CC00DE6450 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013A3D4C179F56CC00DE6450 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013A3D21179F56CB00DE6450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A3D35179F56CB00DE6450 /* main.m in Sources */,
+				013A3D39179F56CB00DE6450 /* AppDelegate.m in Sources */,
+				013A3D42179F56CB00DE6450 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A3D49179F56CC00DE6450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A3D5D179F56CC00DE6450 /* SingleLinePickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013A3D54179F56CC00DE6450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013A3D24179F56CB00DE6450 /* SingleLinePickerView */;
+			targetProxy = 013A3D53179F56CC00DE6450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		013A3D31179F56CB00DE6450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013A3D32179F56CB00DE6450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		013A3D43179F56CB00DE6450 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013A3D44179F56CB00DE6450 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		013A3D46179F56CB00DE6450 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013A3D47179F56CB00DE6450 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		013A3D58179F56CC00DE6450 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013A3D59179F56CC00DE6450 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013A3D5E179F56CC00DE6450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		013A3D5F179F56CC00DE6450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013A3D61179F56CC00DE6450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleLinePickerView/SingleLinePickerView-Prefix.pch";
+				INFOPLIST_FILE = "SingleLinePickerView/SingleLinePickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		013A3D62179F56CC00DE6450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleLinePickerView/SingleLinePickerView-Prefix.pch";
+				INFOPLIST_FILE = "SingleLinePickerView/SingleLinePickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		013A3D64179F56CC00DE6450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SingleLinePickerView.app/SingleLinePickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleLinePickerView/SingleLinePickerView-Prefix.pch";
+				INFOPLIST_FILE = "SingleLinePickerViewTests/SingleLinePickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		013A3D65179F56CC00DE6450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SingleLinePickerView.app/SingleLinePickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleLinePickerView/SingleLinePickerView-Prefix.pch";
+				INFOPLIST_FILE = "SingleLinePickerViewTests/SingleLinePickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013A3D20179F56CB00DE6450 /* Build configuration list for PBXProject "SingleLinePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A3D5E179F56CC00DE6450 /* Debug */,
+				013A3D5F179F56CC00DE6450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013A3D60179F56CC00DE6450 /* Build configuration list for PBXNativeTarget "SingleLinePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A3D61179F56CC00DE6450 /* Debug */,
+				013A3D62179F56CC00DE6450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		013A3D63179F56CC00DE6450 /* Build configuration list for PBXNativeTarget "SingleLinePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A3D64179F56CC00DE6450 /* Debug */,
+				013A3D65179F56CC00DE6450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013A3D1D179F56CB00DE6450 /* Project object */;
+}
