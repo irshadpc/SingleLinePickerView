@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "SingleLinePickerView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<SingleLinePickerViewDataSource, SingleLinePickerViewDelegate>
 
 @property (nonatomic, strong) SingleLinePickerView *singleLinePickerView;
 

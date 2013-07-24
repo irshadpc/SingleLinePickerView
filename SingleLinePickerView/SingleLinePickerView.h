@@ -18,12 +18,15 @@
 
 @end
 
-@protocol SingleLinePickerDelegate <NSObject>
+@protocol SingleLinePickerViewDelegate <NSObject>
 
 - (void)pickerView:(SingleLinePickerView *)pickerView selectAtIndex:(NSUInteger)index;
 
 @end
 
 @interface SingleLinePickerView : UIView
+
+@property (nonatomic, weak) id<SingleLinePickerViewDataSource> dataSource;
+@property (nonatomic, weak) id<SingleLinePickerViewDelegate> delegate;
 
 @end

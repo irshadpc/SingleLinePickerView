@@ -17,6 +17,8 @@
 @implementation SingleLinePickerView
 
 @synthesize contentView = _contentView;
+@synthesize dataSource = _dataSource;
+@synthesize delegate = _delegate;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -26,6 +28,11 @@
     }
     
     return self;
+}
+
+- (void)didMoveToSuperview
+{
+    [self loadData];
 }
 
 - (void)initialization
@@ -47,6 +54,47 @@
     }
     
     return _contentView;
+}
+
+- (void)reloadData
+{
+    
+}
+
+- (void)loadData
+{
+    for (NSUInteger index = 0; index < [self itemCount]; index++) {
+        
+        CGRect contentFrame = self.contentView.bounds;
+        contentFrame.origin.x = self.contentView.bounds.size.width * index;
+        
+        UILabel *contentLabel = [[UILabel alloc] initWithFrame:contentFrame];
+        contentLabel.backgroundColor = [UIColor clearColor];
+        contentLabel.font = [UIFont systemFontOfSize:24];
+        contentLabel.textColor = [UIColor blackColor];
+        contentLabel.textAlignment = NSTextAlignmentCenter;
+        contentLabel.text = [self contentAtIndex:index];
+        
+        [self.contentView addSubview:contentLabel];
+    }
+}
+
+- (NSUInteger)itemCount
+{
+    if ([self.dataSource respondsToSelector:@selector(numberOfItemsInPickerView:)]) {
+        return [self.dataSource numberOfItemsInPickerView:self];
+    }
+    
+    return 0;
+}
+
+- (NSString *)contentAtIndex:(NSUInteger)index
+{
+    if ([self.dataSource respondsToSelector:@selector(pickerView:contentAtIndex:)]) {
+        return [self.dataSource pickerView:self contentAtIndex:index];
+    }
+    
+    return nil;
 }
 
 #pragma mark - UIScrollViewDelegate
