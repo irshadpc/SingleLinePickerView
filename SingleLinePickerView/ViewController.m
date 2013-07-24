@@ -14,16 +14,24 @@
 
 @implementation ViewController
 
+@synthesize singleLinePickerView = _singleLinePickerView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    self.title = @"SingleLinePickerView demo";
+    
+    [self.view addSubview:self.singleLinePickerView];
 }
 
-- (void)didReceiveMemoryWarning
+- (SingleLinePickerView *)singleLinePickerView
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if (!_singleLinePickerView) {
+        _singleLinePickerView = [[SingleLinePickerView alloc] initWithFrame:CGRectMake(100, 100, 200, 40)];
+    }
+    
+    return _singleLinePickerView;
 }
 
 @end

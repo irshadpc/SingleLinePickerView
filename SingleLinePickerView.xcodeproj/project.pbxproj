@@ -24,6 +24,8 @@
 		013A3D52179F56CC00DE6450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013A3D2A179F56CB00DE6450 /* Foundation.framework */; };
 		013A3D5A179F56CC00DE6450 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 013A3D58179F56CC00DE6450 /* InfoPlist.strings */; };
 		013A3D5D179F56CC00DE6450 /* SingleLinePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D5C179F56CC00DE6450 /* SingleLinePickerViewTests.m */; };
+		013A3D6A179F6F4A00DE6450 /* SingleLinePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D69179F6F4A00DE6450 /* SingleLinePickerView.m */; };
+		013A3D6B179F6F4A00DE6450 /* SingleLinePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 013A3D69179F6F4A00DE6450 /* SingleLinePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		013A3D59179F56CC00DE6450 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		013A3D5B179F56CC00DE6450 /* SingleLinePickerViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleLinePickerViewTests.h; sourceTree = "<group>"; };
 		013A3D5C179F56CC00DE6450 /* SingleLinePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleLinePickerViewTests.m; sourceTree = "<group>"; };
+		013A3D68179F6F4A00DE6450 /* SingleLinePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLinePickerView.h; sourceTree = "<group>"; };
+		013A3D69179F6F4A00DE6450 /* SingleLinePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLinePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 		013A3D2E179F56CB00DE6450 /* SingleLinePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				013A3D67179F6F2500DE6450 /* src */,
 				013A3D37179F56CB00DE6450 /* AppDelegate.h */,
 				013A3D38179F56CB00DE6450 /* AppDelegate.m */,
 				013A3D40179F56CB00DE6450 /* ViewController.h */,
@@ -161,6 +166,15 @@
 				013A3D58179F56CC00DE6450 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013A3D67179F6F2500DE6450 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				013A3D68179F6F4A00DE6450 /* SingleLinePickerView.h */,
+				013A3D69179F6F4A00DE6450 /* SingleLinePickerView.m */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +291,7 @@
 				013A3D35179F56CB00DE6450 /* main.m in Sources */,
 				013A3D39179F56CB00DE6450 /* AppDelegate.m in Sources */,
 				013A3D42179F56CB00DE6450 /* ViewController.m in Sources */,
+				013A3D6A179F6F4A00DE6450 /* SingleLinePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				013A3D5D179F56CC00DE6450 /* SingleLinePickerViewTests.m in Sources */,
+				013A3D6B179F6F4A00DE6450 /* SingleLinePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
